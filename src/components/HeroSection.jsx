@@ -1,5 +1,6 @@
 import React from "react";
 import profile from "../assets/img.jpg";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -23,12 +24,17 @@ const HeroSection = () => {
         </p>
       </div>
       <div id="btn-groups" className="flex justify-center mt-5 gap-3">
-        <button className="bg-gradient-to-r from-pink-500 to-yellow-500 text-white px-4 py-2 rounded-3xl border border-white transition-transform transform hover:scale-105 hover:shadow-lg">
+        <Link
+          to="/contact"
+          className="bg-gradient-to-r from-pink-500 to-yellow-500 text-white px-4 py-2 rounded-3xl border border-white transition-transform transform hover:scale-105 hover:shadow-lg"
+        >
           Contact with Me
-        </button>
-        <button className="bg-black text-white px-4 py-2 rounded-3xl border border-white transition-transform transform hover:scale-105 hover:shadow-lg">
-          My Resume
-        </button>
+        </Link>
+        <a href="/Profile.pdf" download={true}>
+          <button className="bg-black text-white px-4 py-2 rounded-3xl border border-white transition-transform transform hover:scale-105 hover:shadow-lg">
+            My Resume
+          </button>
+        </a>
       </div>
     </div>
   );
