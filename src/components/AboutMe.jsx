@@ -20,16 +20,17 @@ const AboutMe = () => {
         {/* About Me Text */}
         <div className="md:w-2/3 lg:w-3/4 md:mx-5 mt-8 md:mt-0">
           <p className="text-justify text-lg leading-relaxed ">
-            I am a front-end developer with over a year of experience in
+            I am a MERN Stack developer with over a year of experience in
             building responsive and user-friendly web applications. Skilled in
-            HTML, CSS, JavaScript, and React, I have a passion for creating
-            clean and efficient code. My experience includes collaborating with
-            cross-functional teams to deliver high-quality projects. I am
-            dedicated to continuous learning and staying updated with the latest
-            industry trends to ensure the best user experience.
+            HTML, CSS, JavaScript,Reactjs,Nodejs,Expressjs,Mysql I have a
+            passion for creating clean and efficient code. My experience
+            includes collaborating with cross-functional teams to deliver
+            high-quality projects. I am dedicated to continuous learning and
+            staying updated with the latest industry trends to ensure the best
+            user experience.
           </p>
           <p className="text-justify mt-5 text-lg ">
-            My passion for frontend development is not only reflected in my
+            My passion for Full stack development is not only reflected in my
             extensive experience but also in the enthusiasm and dedication I
             bring to each project.
           </p>
@@ -80,7 +81,6 @@ const AboutMe = () => {
               </div>
             ))}
           </div>
-
           {/* Statistics */}
           <div className="mt-10">
             <div className="flex flex-row gap-10 justify-between text-center items-center">

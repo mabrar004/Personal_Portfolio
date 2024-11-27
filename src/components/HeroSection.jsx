@@ -19,7 +19,8 @@ const HeroSection = () => {
         </h1>
         <p className="mt-7 mx-2 text-md md:text-xl relative overflow-hidden ">
           <span className="animate-typewriter animate-delay-500ms ">
-            I am a MERN Developer from Pakistan with 1+ years of experience.
+            I am a MERN Stack Developer from Pakistan with 1+ years of
+            experience.
           </span>
         </p>
       </div>
