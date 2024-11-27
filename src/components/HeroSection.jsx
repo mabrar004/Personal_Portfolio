@@ -19,7 +19,7 @@ const HeroSection = () => {
         </h1>
         <p className="mt-7 mx-2 text-md md:text-xl relative overflow-hidden ">
           <span className="animate-typewriter animate-delay-500ms ">
-            I am a Frontend Developer from Pakistan with 1+ years of experience.
+            I am a MERN Developer from Pakistan with 1+ years of experience.
           </span>
         </p>
       </div>
@@ -30,7 +30,7 @@ const HeroSection = () => {
         >
           Contact with Me
         </Link>
-        <a href="/Profile.pdf" download={true}>
+        <a href="/Resume.pdf" download={true}>
           <button className="bg-black text-white px-4 py-2 rounded-3xl border border-white transition-transform transform hover:scale-105 hover:shadow-lg">
             My Resume
           </button>

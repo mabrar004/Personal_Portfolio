@@ -38,14 +38,14 @@ const AboutMe = () => {
           <div className="mt-10 md:mx-10 md:w-full flex flex-col md:flex-wrap md:flex-row">
             {[
               "HTML & CSS",
-              "Tailwindcss",
-              "Bootstrap",
-              "Javascript",
-              "Reactjs",
-              "Nodejs",
-              "Expressjs",
-              "Mysql",
-              "Mongodbs",
+              "TAILWINDCSS",
+              "BOOTSTRAP",
+              "JAVASCRIPT",
+              "REACT.JS",
+              "NODE.JS",
+              "EXPRESS.JS",
+              "MYSQL",
+              "MongoDB",
             ].map((skill, index) => (
               <div
                 key={index}
